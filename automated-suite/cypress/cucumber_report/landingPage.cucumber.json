@@ -1,0 +1,412 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check main product on page - Roulette",
+    "line": 1,
+    "id": "check-main-product-on-page---roulette",
+    "tags": [],
+    "uri": "landingPage.feature",
+    "elements": [
+      {
+        "id": "check-main-product-on-page---roulette;validate-that-the-roulette-game-is-the-default-game",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Validate that the roulette game is the default game",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 1186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that the roulette game page is displayed by default",
+            "result": {
+              "status": "passed",
+              "duration": 1157000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-main-product-on-page---roulette;validate-the-input-bet-amount",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Validate the input bet amount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in the input a bet amount \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on button 'Clear'",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that the bet amount increased respective to the amount added by selecting one of the buttons '0.00'",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-main-product-on-page---roulette;validate-the-input-bet-amount",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validate the input bet amount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 639000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in the input a bet amount \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on button '+ 0.01'",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that the bet amount increased respective to the amount added by selecting one of the buttons '20.01'",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-main-product-on-page---roulette;validate-the-input-bet-amount",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validate the input bet amount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in the input a bet amount \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on button '+ 0.1'",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that the bet amount increased respective to the amount added by selecting one of the buttons '20.10'",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-main-product-on-page---roulette;validate-the-input-bet-amount",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Validate the input bet amount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in the input a bet amount \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on button '+ 1'",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that the bet amount increased respective to the amount added by selecting one of the buttons '21.00'",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-main-product-on-page---roulette;validate-the-input-bet-amount",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Validate the input bet amount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in the input a bet amount \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on button '+ 10'",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that the bet amount increased respective to the amount added by selecting one of the buttons '30.00'",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-main-product-on-page---roulette;validate-the-input-bet-amount",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Validate the input bet amount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I access the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I close the chat tab",
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in the input a bet amount \"20\"",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on button '+ 100'",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I verify that the bet amount increased respective to the amount added by selecting one of the buttons '120.00'",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

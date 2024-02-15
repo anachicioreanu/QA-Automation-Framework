@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib" : ["es2015", "es2015.iterable", "dom"],
+      "types": ["cypress"]
+    },
+    "include": [
+      "cypress/**/*.ts"]
+  }
