@@ -2,45 +2,52 @@
 QA challenge 
 
 # Pre-requisites
-- Node.js and npm installed
+- Ensure Node.js and npm are installed (Recommended versions: Node.js v20.11.0, npm v10.2.4)
 
 # Libraries used
 - cypress
-- cypress-cucumber-preprocessor - Library used to support Behavior-Driven Development (BDD) using Cucumber 
-- cucumber-html-reporter - Used to generate reports with details about tests results
+- cypress-cucumber-preprocessor - Supports Behavior-Driven Development (BDD) using Cucumber
+- cucumber-html-reporter -  Generates detailed test result reports
 
 # Installation
-Cloning this repository and execute from the terminal
+Clone this repository and execute the following command in your terminal:
 
-npm install
+`npm install`
 
-For more information on Cypress intallation via npm: https://docs.cypress.io/guides/getting-started/installing-cypress
+For detailed instructions on installing Cypress via npm, please refer to the [Cypress Documentation](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 # Test execution using npm scripts
-# Cucumber-html report execution - tests are run in headless mode followed by a report generation file
-Steps to follow:
-1. Go to project root
-2. npm run cy:run
 
-# Dashboard execution - watch the tests run in Cypress UI tool
- 1. Go to project root
- 2. npm run cy:open
-![alt text](<Screenshot 2024-02-15 at 21.06.34-1.png>)
+# Cucumber-html report execution
+Tests are executed in headless mode with subsequent report generation.
 
-# Tests to be run: 
-cypress/e2e/*.feature
+1. Navigate to the project root.
+2. Execute the following command: `npm run cy:run`
 
-# Step implementation can be found at 
-cypress/e2e/landingPage/*.steps.ts
+# Dashboard execution
+Observe the test execution via the Cypress UI tool.
+ 1. Navigate to the project root.
+ 2. Execute the following command: `npm run cy:open`
+<img src="/automated-suite/docs/dashboard-1.png" alt="Dashboard execution image" width="550"/>
 
-# Models Folder contains all the locator used to identify the elements in the page
-cypress/e2e/models/*.models.ts
+# Tests to be run:
+Run the following command: `cypress/e2e/*.feature`
+
+# Steps implementation
+Implementation details can be found at:
+`cypress/e2e/landingPage/*.steps.t`
+
+# Models Folder
+Contains all locators used for element identification on the page:
+`cypress/e2e/models/*.models.ts`
 
 # Test result reports
-1. File after the text execution is located on folder 
-    cypress/cucumber_report
-    ![alt text](<Screenshot 2024-02-15 at 21.06.08.png>)
-2. Videos with the execution can be found on folder
-     cypress/videos
-3. All the tests run can be checked on the Cypress IO Dashboard as below : 
-![alt text](<Screenshot 2024-02-15 at 21.06.34.png>)
+1. Test result files are located in:
+    `cypress/cucumber_report`
+
+    <img src="/automated-suite/docs/dashboard-2.png" alt="Dashboard cucumber report" width="550"/>
+2. Videos of test execution can be found in:
+     `cypress/videos`
+3. View all test runs on the Cypress IO Dashboard:
+
+    <img src="/automated-suite/docs/dashboard-3.png" alt="Dashboard cypress IO" width="550"/>
