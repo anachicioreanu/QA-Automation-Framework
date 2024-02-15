@@ -30,14 +30,14 @@ Observe the test execution via the Cypress UI tool.
  2. Execute the following command: `npm run cy:open`
 <img src="/automated-suite/docs/dashboard-1.png" alt="Dashboard execution image" width="550"/>
 
-# Tests to be run:
-Run the following command: `cypress/e2e/*.feature`
+# Test files
+These can be find at : `cypress/e2e/*.feature`
 
-# Steps implementation
+# Steps implementation files
 Implementation details can be found at:
 `cypress/e2e/landingPage/*.steps.t`
 
-# Models Folder
+# Models files
 Contains all locators used for element identification on the page:
 `cypress/e2e/models/*.models.ts`
 
