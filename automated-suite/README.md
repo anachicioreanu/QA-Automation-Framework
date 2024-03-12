@@ -1,5 +1,4 @@
-# Roulette game automated suite
-QA challenge 
+# QA Automation Framework  
 
 # Pre-requisites
 - Ensure Node.js and npm are installed (Recommended versions: Node.js v20.11.0, npm v10.2.4)
